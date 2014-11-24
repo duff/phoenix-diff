@@ -14,7 +14,7 @@ use Mix.Config
 config :phoenix, PhoenixDiff.Router,
   url: [host: "example.com"],
   http: [port: System.get_env("PORT")],
-  secret_key_base: "4LOhKDSrsjaMJkNj7mTQVWWlu1piagrHUKVui6V2c4hyzvKJmTkjwnrtTzttYdTR68rTwX7q0wHOgpnxWzWouQ=="
+  secret_key_base: "KDXAiLlHQF2td+5p+1omeZBmEV/7rTvZ92aewz7myjboqHLcKW+3DRLA3kpf+jJdNck8wLRbwWU5I5XQJWqyQg=="
 
-config :logger, :console,
+config :logger,
   level: :info

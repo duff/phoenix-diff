@@ -9,8 +9,7 @@ use Mix.Config
 config :phoenix, PhoenixDiff.Router,
   url: [host: "localhost"],
   http: [port: System.get_env("PORT")],
-  https: false,
-  secret_key_base: "4LOhKDSrsjaMJkNj7mTQVWWlu1piagrHUKVui6V2c4hyzvKJmTkjwnrtTzttYdTR68rTwX7q0wHOgpnxWzWouQ==",
+  secret_key_base: "KDXAiLlHQF2td+5p+1omeZBmEV/7rTvZ92aewz7myjboqHLcKW+3DRLA3kpf+jJdNck8wLRbwWU5I5XQJWqyQg==",
   catch_errors: true,
   debug_errors: false,
   error_controller: PhoenixDiff.PageController

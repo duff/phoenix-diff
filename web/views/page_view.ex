@@ -1,4 +1,4 @@
 defmodule PhoenixDiff.PageView do
-  use PhoenixDiff.Views
+  use PhoenixDiff.View
 
 end

@@ -1,4 +1,4 @@
 defmodule PhoenixDiff.LayoutView do
-  use PhoenixDiff.Views
+  use PhoenixDiff.View
 
 end
