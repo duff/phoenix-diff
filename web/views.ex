@@ -8,6 +8,7 @@ defmodule PhoenixDiff.Views do
       # This block is expanded within all views for aliases, imports, etc
       import PhoenixDiff.I18n
       import PhoenixDiff.Router.Helpers
+      alias Phoenix.Controller.Flash
     end
   end
 

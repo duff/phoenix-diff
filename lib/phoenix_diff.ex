@@ -8,9 +8,11 @@ defmodule PhoenixDiff do
 
     children = [
       # Define workers and child supervisors to be supervised
-      # worker(TestApp.Worker, [arg1, arg2, arg3])
+      # worker(PhoenixDiff.Worker, [arg1, arg2, arg3])
     ]
 
+    # See http://elixir-lang.org/docs/stable/elixir/Supervisor.html
+    # for other strategies and supported options
     opts = [strategy: :one_for_one, name: PhoenixDiff.Supervisor]
     Supervisor.start_link(children, opts)
   end

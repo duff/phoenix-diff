@@ -1,6 +1,15 @@
 defmodule PhoenixDiff.Router do
   use Phoenix.Router
 
-  get "/", PhoenixDiff.PageController, :index, as: :pages
+  scope "/" do
+    # Use the default browser stack.
+    pipe_through :browser
 
+    get "/", PhoenixDiff.PageController, :index, as: :pages
+  end
+
+  # Other scopes may use custom stacks.
+  # scope "/api" do
+  #   pipe_through :api
+  # end
 end
