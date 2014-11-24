@@ -6,7 +6,7 @@ config :phoenix, PhoenixDiff.Router,
   host: "localhost",
   cookies: true,
   session_key: "_phoenix_diff_key",
-  session_secret: "@+Z^(8_B#8*V#0_8+IN&5D0@E_LBL%CBT)(BB481_L7@VBQIND)PF8ZJ11T$SB8KQ!MH#",
+  session_secret: "R)JGT!Q0M5@N)S&W^DLN&S5MPR+_HKU1VH+GF*QNT!F^FHW2(DKGHPLT*S^L1^4I&1^E7S%U_N%T+",
   debug_errors: true
 
 config :phoenix, :code_reloader,
